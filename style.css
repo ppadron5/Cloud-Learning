@@ -1,4 +1,9 @@
 /* Nav Bar */
+body {
+    background-image: url(./images/Galaxy.jpg);
+    background-repeat: repeat-y;
+}
+
 ul {
     position: -webkit-sticky;
     position: sticky;
@@ -12,4 +17,12 @@ ul {
 
 li {
     display: inline;
+}
+
+#gal {
+    display: grid;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
